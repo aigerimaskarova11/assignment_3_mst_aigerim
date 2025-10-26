@@ -1,0 +1,455 @@
+{"results": [
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 2,
+          "from": "B",
+          "to": "C"
+        },
+        {
+          "weight": 5,
+          "from": "C",
+          "to": "E"
+        },
+        {
+          "weight": 6,
+          "from": "B",
+          "to": "D"
+        }
+      ],
+      "total_cost": 16,
+      "execution_time_ms": 0.8596,
+      "operations_count": 42
+    },
+    "input_stats": {
+      "vertices": 5,
+      "edges": 6
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "B",
+          "to": "C"
+        },
+        {
+          "weight": 3,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 5,
+          "from": "C",
+          "to": "E"
+        },
+        {
+          "weight": 6,
+          "from": "B",
+          "to": "D"
+        }
+      ],
+      "total_cost": 16,
+      "execution_time_ms": 1.4782,
+      "operations_count": 24
+    },
+    "graph_id": 1
+  },
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 3,
+          "from": "B",
+          "to": "D"
+        },
+        {
+          "weight": 4,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 5,
+          "from": "C",
+          "to": "E"
+        },
+        {
+          "weight": 5,
+          "from": "E",
+          "to": "J"
+        },
+        {
+          "weight": 4,
+          "from": "H",
+          "to": "J"
+        },
+        {
+          "weight": 2,
+          "from": "F",
+          "to": "H"
+        },
+        {
+          "weight": 6,
+          "from": "E",
+          "to": "G"
+        },
+        {
+          "weight": 3,
+          "from": "G",
+          "to": "I"
+        },
+        {
+          "weight": 5,
+          "from": "I",
+          "to": "K"
+        },
+        {
+          "weight": 6,
+          "from": "J",
+          "to": "L"
+        }
+      ],
+      "total_cost": 45,
+      "execution_time_ms": 0.0225,
+      "operations_count": 188
+    },
+    "input_stats": {
+      "vertices": 12,
+      "edges": 15
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "A",
+          "to": "B"
+        },
+        {
+          "weight": 2,
+          "from": "F",
+          "to": "H"
+        },
+        {
+          "weight": 3,
+          "from": "B",
+          "to": "D"
+        },
+        {
+          "weight": 3,
+          "from": "G",
+          "to": "I"
+        },
+        {
+          "weight": 4,
+          "from": "A",
+          "to": "C"
+        },
+        {
+          "weight": 4,
+          "from": "H",
+          "to": "J"
+        },
+        {
+          "weight": 5,
+          "from": "C",
+          "to": "E"
+        },
+        {
+          "weight": 5,
+          "from": "E",
+          "to": "J"
+        },
+        {
+          "weight": 5,
+          "from": "I",
+          "to": "K"
+        },
+        {
+          "weight": 6,
+          "from": "E",
+          "to": "G"
+        },
+        {
+          "weight": 6,
+          "from": "J",
+          "to": "L"
+        }
+      ],
+      "total_cost": 45,
+      "execution_time_ms": 0.0527,
+      "operations_count": 75
+    },
+    "graph_id": 2
+  },
+  {
+    "prim": {
+      "mst_edges": [
+        {
+          "weight": 3,
+          "from": "N1",
+          "to": "N2"
+        },
+        {
+          "weight": 4,
+          "from": "N2",
+          "to": "N3"
+        },
+        {
+          "weight": 5,
+          "from": "N3",
+          "to": "N4"
+        },
+        {
+          "weight": 2,
+          "from": "N4",
+          "to": "N5"
+        },
+        {
+          "weight": 6,
+          "from": "N5",
+          "to": "N6"
+        },
+        {
+          "weight": 3,
+          "from": "N6",
+          "to": "N7"
+        },
+        {
+          "weight": 4,
+          "from": "N7",
+          "to": "N8"
+        },
+        {
+          "weight": 4,
+          "from": "N8",
+          "to": "N23"
+        },
+        {
+          "weight": 3,
+          "from": "N22",
+          "to": "N23"
+        },
+        {
+          "weight": 5,
+          "from": "N8",
+          "to": "N9"
+        },
+        {
+          "weight": 5,
+          "from": "N23",
+          "to": "N24"
+        },
+        {
+          "weight": 2,
+          "from": "N24",
+          "to": "N25"
+        },
+        {
+          "weight": 5,
+          "from": "N12",
+          "to": "N25"
+        },
+        {
+          "weight": 5,
+          "from": "N12",
+          "to": "N13"
+        },
+        {
+          "weight": 3,
+          "from": "N13",
+          "to": "N14"
+        },
+        {
+          "weight": 6,
+          "from": "N5",
+          "to": "N17"
+        },
+        {
+          "weight": 2,
+          "from": "N16",
+          "to": "N17"
+        },
+        {
+          "weight": 4,
+          "from": "N17",
+          "to": "N18"
+        },
+        {
+          "weight": 6,
+          "from": "N15",
+          "to": "N16"
+        },
+        {
+          "weight": 6,
+          "from": "N21",
+          "to": "N22"
+        },
+        {
+          "weight": 7,
+          "from": "N9",
+          "to": "N10"
+        },
+        {
+          "weight": 2,
+          "from": "N10",
+          "to": "N11"
+        },
+        {
+          "weight": 7,
+          "from": "N18",
+          "to": "N19"
+        },
+        {
+          "weight": 5,
+          "from": "N19",
+          "to": "N20"
+        }
+      ],
+      "total_cost": 104,
+      "execution_time_ms": 0.0593,
+      "operations_count": 715
+    },
+    "input_stats": {
+      "vertices": 25,
+      "edges": 30
+    },
+    "kruskal": {
+      "mst_edges": [
+        {
+          "weight": 2,
+          "from": "N4",
+          "to": "N5"
+        },
+        {
+          "weight": 2,
+          "from": "N10",
+          "to": "N11"
+        },
+        {
+          "weight": 2,
+          "from": "N16",
+          "to": "N17"
+        },
+        {
+          "weight": 2,
+          "from": "N24",
+          "to": "N25"
+        },
+        {
+          "weight": 3,
+          "from": "N1",
+          "to": "N2"
+        },
+        {
+          "weight": 3,
+          "from": "N6",
+          "to": "N7"
+        },
+        {
+          "weight": 3,
+          "from": "N13",
+          "to": "N14"
+        },
+        {
+          "weight": 3,
+          "from": "N22",
+          "to": "N23"
+        },
+        {
+          "weight": 4,
+          "from": "N2",
+          "to": "N3"
+        },
+        {
+          "weight": 4,
+          "from": "N7",
+          "to": "N8"
+        },
+        {
+          "weight": 4,
+          "from": "N8",
+          "to": "N23"
+        },
+        {
+          "weight": 4,
+          "from": "N17",
+          "to": "N18"
+        },
+        {
+          "weight": 5,
+          "from": "N3",
+          "to": "N4"
+        },
+        {
+          "weight": 5,
+          "from": "N8",
+          "to": "N9"
+        },
+        {
+          "weight": 5,
+          "from": "N12",
+          "to": "N13"
+        },
+        {
+          "weight": 5,
+          "from": "N12",
+          "to": "N25"
+        },
+        {
+          "weight": 5,
+          "from": "N19",
+          "to": "N20"
+        },
+        {
+          "weight": 5,
+          "from": "N23",
+          "to": "N24"
+        },
+        {
+          "weight": 6,
+          "from": "N5",
+          "to": "N6"
+        },
+        {
+          "weight": 6,
+          "from": "N5",
+          "to": "N17"
+        },
+        {
+          "weight": 6,
+          "from": "N15",
+          "to": "N16"
+        },
+        {
+          "weight": 6,
+          "from": "N21",
+          "to": "N22"
+        },
+        {
+          "weight": 7,
+          "from": "N9",
+          "to": "N10"
+        },
+        {
+          "weight": 7,
+          "from": "N10",
+          "to": "N20"
+        }
+      ],
+      "total_cost": 104,
+      "execution_time_ms": 0.1006,
+      "operations_count": 182
+    },
+    "graph_id": 3
+  }
+]}
