@@ -1,5 +1,4 @@
 ## **Analytical Report: Minimum Spanning Tree Algorithms**
-
 ### **1. Summary of Input Data and Algorithm Results**
 
 In this project, I developed a Java program to find the **Minimum Spanning Tree (MST)** of several graphs using **Prim’s algorithm** and **Kruskal’s algorithm**.
@@ -21,7 +20,7 @@ Unit tests were written using **JUnit** to check correctness, including:
 * ensuring no cycles appear in the MST,
 * and confirming that operation counts are non-negative.
 
-Below is the summary of results for three input graphs:
+Summary of results for three input graphs:
 
 | Graph ID | Vertices | Edges | Algorithm | Total Cost | Execution Time (ms) | Operations Count |
 | -------- | -------- | ----- | --------- | ---------- | ------------------- | ---------------- |
@@ -34,8 +33,6 @@ Below is the summary of results for three input graphs:
 
 For all graphs, both algorithms produced **identical MST total costs**, proving that the implementations are correct.
 However, the **execution times and operation counts** show different efficiency patterns depending on the graph size.
-
----
 
 ### **2. Comparison Between Prim’s and Kruskal’s Algorithms**
 
@@ -63,8 +60,6 @@ In summary:
 * **Kruskal’s** → faster on sparse graphs, fewer operations.
 
 Both algorithms achieved the same MST cost, so the main difference is **efficiency**, not **correctness**.
-
----
 
 ### **3. Conclusions**
 
